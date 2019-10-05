@@ -32,4 +32,12 @@
 **/dist
 
 # Vendored files
+**/graphiql.min.js
+**/graphiql.css
+**/graphiql.js
+
 /packages/graphiql/test/vendor
+
+# Funky codemirror-graphql build pattern
+/packages/codemirror-graphql/**
+!/packages/codemirror-graphql/src/**
